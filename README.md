@@ -32,12 +32,11 @@ Certifique-se de ter o Python instalado em sua máquina. Recomendo a utilizaçã
 `python manage.py createsuperuser`
 
 
-### Inicie o servidor de desenvolvimento:
-`python manage.py runserver`
-
-
 <hr>
 
+
+### Inicie o servidor de desenvolvimento:
+`python manage.py runserver`
 
 - O site estará disponível em http://localhost:8000/. 
 
