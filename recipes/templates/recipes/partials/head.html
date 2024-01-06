@@ -17,6 +17,10 @@
     integrity="sha512-sVSECYdnRMezwuq5uAjKQJEcu2wybeAPjU4VJQ9pCRcCY4pIpIw4YMHIOQ0CypfwHRvdSPbH++dA3O4Hihm/LQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+
   <title>Recipes</title>
   <style>
     :root {
@@ -56,6 +60,7 @@
       --color-gray-8: #323232;
       --color-gray-9: #191919;
 
+      --font-title: 'Rubik Doodle Shadow', system-ui;
       --font-primary: sans-serif;
       --font-headings: 'Roboto Slab', serif;
 
@@ -107,11 +112,16 @@
       align-items: center;
       justify-content: center;
       width: fit-content;
+      /* tamanho do icone ocupa */
       margin: 0 auto;
     }
 
     .main-logo-icon {
       margin-right: 2rem;
+    }
+
+    .main-logo-text {
+      font-family: var(--font-title);
     }
   </style>
 </head>
