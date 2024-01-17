@@ -168,5 +168,29 @@
     .search-form:focus-within .search-button {
       color: var(--color-primary);
     }
+
+    .main-content{
+      padding-top: 0;
+    }
+
+    .main-content-list{
+      display: grid; /* Colunas  */
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));  /* deixar responsivo */
+      gap: var(--spacing-gutter-large) /* Dividir div */
+    }
+
+    .recipe{
+      background: var(--color-white);
+      
+    }
+
+    .recipe img{
+      max-width: 100%;
+    }
+
+    .recipe-list-item{
+      max-width: 64rem;
+    }
+
   </style>
 </head>
